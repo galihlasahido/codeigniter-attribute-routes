@@ -1,0 +1,27 @@
+{
+    "name": "galihlasahido/codeigniter-attributeroutes",
+    "description": "CodeIgniter4 Attribute Routes module",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Galihlasahido\\Codeigniter\\Attributeroutes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Galih Lasahido",
+            "email": "galih.lasahido@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "codeigniter4/devkit": "^1.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    }
+}
