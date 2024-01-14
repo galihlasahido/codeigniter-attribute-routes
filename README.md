@@ -102,8 +102,7 @@ class MyController {
 
     ```
     └── Codeigniter project/
-        ├── Modules
-        └── You can even/
+        └── Modules/
             ├── Controllers/
             │   └── Dashboard.php
             ├── Views
