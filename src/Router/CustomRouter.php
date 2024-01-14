@@ -48,7 +48,7 @@ class CustomRouter extends Router {
 
             if((isset($match[0][0]))) {
                 $actionArray[] = $action;
-                for($i=1; $i<=count($match);$i++) {
+                for($i=1; $i<=count($match[0]);$i++) {
                     $actionArray[] = '$'.$i;
                 }
 
